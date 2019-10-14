@@ -1,0 +1,114 @@
+/*
+ *
+ * Copyright (c) 2019 Tom Michelon <lord.tom.michelon@gmail.com>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the LICENSE.md file.
+ *
+ */
+
+ body {
+ 	font-family: sans-serif;
+ 	background: #EEEE;
+ 	margin: 0;
+ }
+
+.__main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.__card {
+	margin: 20px;
+	transition-duration: 0.2s;
+}
+
+.__card:hover {
+	transform: scale(1.1);
+}
+
+.__card, .__card--footer, img {
+	width: 250px;
+ 	box-shadow: 0px 0px 5px 0px rgba(68,43,148,0.2);
+}
+
+.__card--footer {
+	background: #FFF;
+	padding: 10px;
+	text-align: center;
+	width: 230px;
+}
+
+.__top--navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	padding-left: 150px;
+	overflow: hidden;
+	background: #FFF;
+	box-shadow: 0px 0px 5px 0px rgba(68,43,148,0.5);
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: inline-block;
+	color: #565656;
+	text-align: center;
+	padding: 10px 16px;
+	margin-left: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	transition-duration: 0.5s;
+}
+
+li a:hover {
+    background: rgba(1000,1000,1000,0.2);
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px rgba(68,43,148,0.1);
+}
+
+.__btn {
+	border: solid 1px #3897F0;
+	color: #3897F0;
+	background: transparent;
+	border-radius: 3px;
+	padding: 10px 16px;
+	text-decoration: none;
+ 	transition-duration: 0.5s;
+}
+
+.__btn:hover {
+	background: #3897F0;
+	color: white;
+	box-shadow: 0px 0px 5px 0px rgba(68,43,148,0.2);  
+}
+
+footer {
+	height: 100px;
+	background: #FFF;
+	padding: 20px;
+	padding-right: 100px;
+	box-shadow: 0px 0px 5px 0px rgba(68,43,148,0.5);
+}
+
+.footer__image {
+  width: 250px;
+  height: 100px;
+  background-image: url("logo-bottom.png");
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  float: right;
+  opacity: 0.5;
+}
+
+.__footer--text {
+	color: #C6C6C6;
+	font-size: 30px;
+}
